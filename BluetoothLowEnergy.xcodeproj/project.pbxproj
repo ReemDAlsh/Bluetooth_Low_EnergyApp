@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD6FED6C20921287003B73F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED6B20921287003B73F9 /* AppDelegate.swift */; };
+		AD6FED6E20921287003B73F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED6D20921287003B73F9 /* ViewController.swift */; };
+		AD6FED7120921287003B73F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6FED6F20921287003B73F9 /* Main.storyboard */; };
+		AD6FED7320921287003B73F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6FED7220921287003B73F9 /* Assets.xcassets */; };
+		AD6FED7620921287003B73F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6FED7420921287003B73F9 /* LaunchScreen.storyboard */; };
+		AD6FED8120921288003B73F9 /* BluetoothLowEnergyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED8020921288003B73F9 /* BluetoothLowEnergyTests.swift */; };
+		AD6FED8C20921288003B73F9 /* BluetoothLowEnergyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED8B20921288003B73F9 /* BluetoothLowEnergyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD6FED7D20921288003B73F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD6FED6020921287003B73F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD6FED6720921287003B73F9;
+			remoteInfo = BluetoothLowEnergy;
+		};
+		AD6FED8820921288003B73F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD6FED6020921287003B73F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD6FED6720921287003B73F9;
+			remoteInfo = BluetoothLowEnergy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD6FED6820921287003B73F9 /* BluetoothLowEnergy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothLowEnergy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6FED6B20921287003B73F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD6FED6D20921287003B73F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD6FED7020921287003B73F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD6FED7220921287003B73F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD6FED7520921287003B73F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD6FED7720921287003B73F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6FED7C20921288003B73F9 /* BluetoothLowEnergyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothLowEnergyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6FED8020921288003B73F9 /* BluetoothLowEnergyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLowEnergyTests.swift; sourceTree = "<group>"; };
+		AD6FED8220921288003B73F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6FED8720921288003B73F9 /* BluetoothLowEnergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothLowEnergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD6FED8B20921288003B73F9 /* BluetoothLowEnergyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLowEnergyUITests.swift; sourceTree = "<group>"; };
+		AD6FED8D20921288003B73F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD6FED6520921287003B73F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6FED7920921288003B73F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6FED8420921288003B73F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD6FED5F20921287003B73F9 = {
+			isa = PBXGroup;
+			children = (
+				AD6FED6A20921287003B73F9 /* BluetoothLowEnergy */,
+				AD6FED7F20921288003B73F9 /* BluetoothLowEnergyTests */,
+				AD6FED8A20921288003B73F9 /* BluetoothLowEnergyUITests */,
+				AD6FED6920921287003B73F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD6FED6920921287003B73F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD6FED6820921287003B73F9 /* BluetoothLowEnergy.app */,
+				AD6FED7C20921288003B73F9 /* BluetoothLowEnergyTests.xctest */,
+				AD6FED8720921288003B73F9 /* BluetoothLowEnergyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD6FED6A20921287003B73F9 /* BluetoothLowEnergy */ = {
+			isa = PBXGroup;
+			children = (
+				AD6FED6B20921287003B73F9 /* AppDelegate.swift */,
+				AD6FED6D20921287003B73F9 /* ViewController.swift */,
+				AD6FED6F20921287003B73F9 /* Main.storyboard */,
+				AD6FED7220921287003B73F9 /* Assets.xcassets */,
+				AD6FED7420921287003B73F9 /* LaunchScreen.storyboard */,
+				AD6FED7720921287003B73F9 /* Info.plist */,
+			);
+			path = BluetoothLowEnergy;
+			sourceTree = "<group>";
+		};
+		AD6FED7F20921288003B73F9 /* BluetoothLowEnergyTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD6FED8020921288003B73F9 /* BluetoothLowEnergyTests.swift */,
+				AD6FED8220921288003B73F9 /* Info.plist */,
+			);
+			path = BluetoothLowEnergyTests;
+			sourceTree = "<group>";
+		};
+		AD6FED8A20921288003B73F9 /* BluetoothLowEnergyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD6FED8B20921288003B73F9 /* BluetoothLowEnergyUITests.swift */,
+				AD6FED8D20921288003B73F9 /* Info.plist */,
+			);
+			path = BluetoothLowEnergyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD6FED6720921287003B73F9 /* BluetoothLowEnergy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6FED9020921288003B73F9 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergy" */;
+			buildPhases = (
+				AD6FED6420921287003B73F9 /* Sources */,
+				AD6FED6520921287003B73F9 /* Frameworks */,
+				AD6FED6620921287003B73F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothLowEnergy;
+			productName = BluetoothLowEnergy;
+			productReference = AD6FED6820921287003B73F9 /* BluetoothLowEnergy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD6FED7B20921288003B73F9 /* BluetoothLowEnergyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6FED9320921288003B73F9 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergyTests" */;
+			buildPhases = (
+				AD6FED7820921288003B73F9 /* Sources */,
+				AD6FED7920921288003B73F9 /* Frameworks */,
+				AD6FED7A20921288003B73F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD6FED7E20921288003B73F9 /* PBXTargetDependency */,
+			);
+			name = BluetoothLowEnergyTests;
+			productName = BluetoothLowEnergyTests;
+			productReference = AD6FED7C20921288003B73F9 /* BluetoothLowEnergyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD6FED8620921288003B73F9 /* BluetoothLowEnergyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD6FED9620921288003B73F9 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergyUITests" */;
+			buildPhases = (
+				AD6FED8320921288003B73F9 /* Sources */,
+				AD6FED8420921288003B73F9 /* Frameworks */,
+				AD6FED8520921288003B73F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD6FED8920921288003B73F9 /* PBXTargetDependency */,
+			);
+			name = BluetoothLowEnergyUITests;
+			productName = BluetoothLowEnergyUITests;
+			productReference = AD6FED8720921288003B73F9 /* BluetoothLowEnergyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD6FED6020921287003B73F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Reem alsharif";
+				TargetAttributes = {
+					AD6FED6720921287003B73F9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AD6FED7B20921288003B73F9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD6FED6720921287003B73F9;
+					};
+					AD6FED8620921288003B73F9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD6FED6720921287003B73F9;
+					};
+				};
+			};
+			buildConfigurationList = AD6FED6320921287003B73F9 /* Build configuration list for PBXProject "BluetoothLowEnergy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD6FED5F20921287003B73F9;
+			productRefGroup = AD6FED6920921287003B73F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD6FED6720921287003B73F9 /* BluetoothLowEnergy */,
+				AD6FED7B20921288003B73F9 /* BluetoothLowEnergyTests */,
+				AD6FED8620921288003B73F9 /* BluetoothLowEnergyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD6FED6620921287003B73F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6FED7620921287003B73F9 /* LaunchScreen.storyboard in Resources */,
+				AD6FED7320921287003B73F9 /* Assets.xcassets in Resources */,
+				AD6FED7120921287003B73F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6FED7A20921288003B73F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6FED8520921288003B73F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD6FED6420921287003B73F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6FED6E20921287003B73F9 /* ViewController.swift in Sources */,
+				AD6FED6C20921287003B73F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6FED7820921288003B73F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6FED8120921288003B73F9 /* BluetoothLowEnergyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6FED8320921288003B73F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD6FED8C20921288003B73F9 /* BluetoothLowEnergyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD6FED7E20921288003B73F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD6FED6720921287003B73F9 /* BluetoothLowEnergy */;
+			targetProxy = AD6FED7D20921288003B73F9 /* PBXContainerItemProxy */;
+		};
+		AD6FED8920921288003B73F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD6FED6720921287003B73F9 /* BluetoothLowEnergy */;
+			targetProxy = AD6FED8820921288003B73F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD6FED6F20921287003B73F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6FED7020921287003B73F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD6FED7420921287003B73F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD6FED7520921287003B73F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD6FED8E20921288003B73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD6FED8F20921288003B73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD6FED9120921288003B73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BluetoothLowEnergy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD6FED9220921288003B73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BluetoothLowEnergy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD6FED9420921288003B73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BluetoothLowEnergyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothLowEnergy.app/BluetoothLowEnergy";
+			};
+			name = Debug;
+		};
+		AD6FED9520921288003B73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BluetoothLowEnergyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BluetoothLowEnergy.app/BluetoothLowEnergy";
+			};
+			name = Release;
+		};
+		AD6FED9720921288003B73F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BluetoothLowEnergyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BluetoothLowEnergy;
+			};
+			name = Debug;
+		};
+		AD6FED9820921288003B73F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BluetoothLowEnergyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BluetoothLowEnergy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD6FED6320921287003B73F9 /* Build configuration list for PBXProject "BluetoothLowEnergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6FED8E20921288003B73F9 /* Debug */,
+				AD6FED8F20921288003B73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6FED9020921288003B73F9 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6FED9120921288003B73F9 /* Debug */,
+				AD6FED9220921288003B73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6FED9320921288003B73F9 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6FED9420921288003B73F9 /* Debug */,
+				AD6FED9520921288003B73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD6FED9620921288003B73F9 /* Build configuration list for PBXNativeTarget "BluetoothLowEnergyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6FED9720921288003B73F9 /* Debug */,
+				AD6FED9820921288003B73F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD6FED6020921287003B73F9 /* Project object */;
+}
