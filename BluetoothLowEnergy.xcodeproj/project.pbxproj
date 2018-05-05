@@ -14,6 +14,14 @@
 		AD6FED7620921287003B73F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD6FED7420921287003B73F9 /* LaunchScreen.storyboard */; };
 		AD6FED8120921288003B73F9 /* BluetoothLowEnergyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED8020921288003B73F9 /* BluetoothLowEnergyTests.swift */; };
 		AD6FED8C20921288003B73F9 /* BluetoothLowEnergyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED8B20921288003B73F9 /* BluetoothLowEnergyUITests.swift */; };
+		AD6FED9A209212A0003B73F9 /* BlePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED99209212A0003B73F9 /* BlePeripheral.swift */; };
+		AD6FED9C20921339003B73F9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED9B20921339003B73F9 /* StringExtension.swift */; };
+		AD6FED9E2092137E003B73F9 /* BlePeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED9D2092137E003B73F9 /* BlePeripheralDelegate.swift */; };
+		AD6FEDA020921399003B73F9 /* PeripheralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FED9F20921399003B73F9 /* PeripheralTableViewCell.swift */; };
+		AD6FEDA2209213B0003B73F9 /* GattTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEDA1209213B0003B73F9 /* GattTableViewCell.swift */; };
+		AD6FEDA4209213DA003B73F9 /* CharacteristicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEDA3209213DA003B73F9 /* CharacteristicViewController.swift */; };
+		AD6FEDA6209213F8003B73F9 /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEDA5209213F8003B73F9 /* PeripheralViewController.swift */; };
+		AD6FEDA820921489003B73F9 /* PeripheralTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6FEDA720921489003B73F9 /* PeripheralTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		AD6FED8720921288003B73F9 /* BluetoothLowEnergyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothLowEnergyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6FED8B20921288003B73F9 /* BluetoothLowEnergyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothLowEnergyUITests.swift; sourceTree = "<group>"; };
 		AD6FED8D20921288003B73F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD6FED99209212A0003B73F9 /* BlePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheral.swift; sourceTree = "<group>"; };
+		AD6FED9B20921339003B73F9 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		AD6FED9D2092137E003B73F9 /* BlePeripheralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePeripheralDelegate.swift; sourceTree = "<group>"; };
+		AD6FED9F20921399003B73F9 /* PeripheralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewCell.swift; sourceTree = "<group>"; };
+		AD6FEDA1209213B0003B73F9 /* GattTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GattTableViewCell.swift; sourceTree = "<group>"; };
+		AD6FEDA3209213DA003B73F9 /* CharacteristicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacteristicViewController.swift; sourceTree = "<group>"; };
+		AD6FEDA5209213F8003B73F9 /* PeripheralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		AD6FEDA720921489003B73F9 /* PeripheralTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				AD6FED7220921287003B73F9 /* Assets.xcassets */,
 				AD6FED7420921287003B73F9 /* LaunchScreen.storyboard */,
 				AD6FED7720921287003B73F9 /* Info.plist */,
+				AD6FED9B20921339003B73F9 /* StringExtension.swift */,
+				AD6FED99209212A0003B73F9 /* BlePeripheral.swift */,
+				AD6FED9D2092137E003B73F9 /* BlePeripheralDelegate.swift */,
+				AD6FED9F20921399003B73F9 /* PeripheralTableViewCell.swift */,
+				AD6FEDA1209213B0003B73F9 /* GattTableViewCell.swift */,
+				AD6FEDA3209213DA003B73F9 /* CharacteristicViewController.swift */,
+				AD6FEDA5209213F8003B73F9 /* PeripheralViewController.swift */,
+				AD6FEDA720921489003B73F9 /* PeripheralTableViewController.swift */,
 			);
 			path = BluetoothLowEnergy;
 			sourceTree = "<group>";
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD6FED9C20921339003B73F9 /* StringExtension.swift in Sources */,
+				AD6FEDA820921489003B73F9 /* PeripheralTableViewController.swift in Sources */,
+				AD6FEDA4209213DA003B73F9 /* CharacteristicViewController.swift in Sources */,
+				AD6FEDA2209213B0003B73F9 /* GattTableViewCell.swift in Sources */,
 				AD6FED6E20921287003B73F9 /* ViewController.swift in Sources */,
+				AD6FED9A209212A0003B73F9 /* BlePeripheral.swift in Sources */,
+				AD6FED9E2092137E003B73F9 /* BlePeripheralDelegate.swift in Sources */,
 				AD6FED6C20921287003B73F9 /* AppDelegate.swift in Sources */,
+				AD6FEDA6209213F8003B73F9 /* PeripheralViewController.swift in Sources */,
+				AD6FEDA020921399003B73F9 /* PeripheralTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQN5NNRG23;
 				INFOPLIST_FILE = BluetoothLowEnergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergy;
@@ -441,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GQN5NNRG23;
 				INFOPLIST_FILE = BluetoothLowEnergy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.myProject.OnlyMe.BluetoothLowEnergy;
